@@ -30,9 +30,9 @@ server.route({
       found = false,
       allowed = [
         /^components\//,
-        /^images\//,
+        /^media\//,
         /^js\//,
-        /^styles\//
+        /^css\//
       ];
 
     _.each(allowed, function(regex){
